@@ -8,14 +8,17 @@ https://discourse.gohugo.io/t/hugo-does-not-see-or-build-content-unless-i-save-a
 
 It does not behave as I expect it to:
 
+
 Expected behaviour:
-Run hugo server
-Click on buttons, go to pages A,B,C.
+
+* Run hugo server
+* Click on buttons, go to pages A,B,C.
+
 
 Observed behavior.
-Run Hugo Server
-Click on buttons, page not found
-Edit source of pages. Hugo updates... the page that was edited now exists, but other pages don't.
+* Run Hugo Server
+* Click on buttons, page not found
+* Edit source of pages. Hugo updates... the page that was edited now exists, but other pages don't.
 
 
 Note that this broken behavior occurs ONLY if there exists an index.md file. If we have no index.md, then all is well.
